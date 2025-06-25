@@ -2,11 +2,13 @@ package org.example;
 import java.util.Scanner;
 
 /*
+ * Scanner - класс для ввода с клавиатуры
  * n.charAt(t) - возвращает символ из строки n по индексу i
  * Character - класс, предоставляющий методы для работы с символами
  * Character.toString() - преобразует символ в строку
  * Integer - класс для int, числа -> объекты
  * Integer.parseInt() - преобразует строку в целочего число
+ * final - константа
  */
 
 public class Main {
@@ -49,6 +51,7 @@ public class Main {
         System.out.println("Sum of " + n + ": " + sum);
     }
 
+    // задание 5
     static void earthToMoon(double a) {
         final double k = 0.17;
         System.out.println(a * k);
