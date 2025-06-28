@@ -2,10 +2,6 @@ package org.example;
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.Random;
-import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 /*
  * Scanner - класс для ввода с клавиатуры
