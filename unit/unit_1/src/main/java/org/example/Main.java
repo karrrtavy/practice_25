@@ -1,11 +1,14 @@
 package org.example;
 import java.util.Scanner;
+<<<<<<< HEAD
 import java.util.Vector;
 import java.util.Random;
 import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+=======
+>>>>>>> 103d82b988610d510f266894acbea82c4542896d
 
 /*
  * Scanner - класс для ввода с клавиатуры
@@ -15,8 +18,11 @@ import java.util.Map;
  * Integer - класс для int, числа -> объекты
  * Integer.parseInt() - преобразует строку в целочего число
  * final - константа
+<<<<<<< HEAD
  * vector.get() - получение элмента из контейнера
  * vector.add() - добавить элемент в контейнер
+=======
+>>>>>>> 103d82b988610d510f266894acbea82c4542896d
  */
 
 public class Main {
@@ -65,6 +71,7 @@ public class Main {
         System.out.println(a * k);
     }
 
+<<<<<<< HEAD
     // задание 6
     static void validRegularNumber(int a) {
         int count = 0;
@@ -135,6 +142,8 @@ public class Main {
         return result.toString();
     }
 
+=======
+>>>>>>> 103d82b988610d510f266894acbea82c4542896d
     public static void main(String[] args) {
         printGreeting();
 
@@ -154,6 +163,7 @@ public class Main {
         double weight = in.nextDouble();
         earthToMoon(weight);
 
+<<<<<<< HEAD
         System.out.println("Input a random number: ");
         int valNumber = in.nextInt();
         validRegularNumber(valNumber);
@@ -174,6 +184,8 @@ public class Main {
         int decA = in.nextInt();
         System.out.println("Result: " + decToRom(decA));
 
+=======
+>>>>>>> 103d82b988610d510f266894acbea82c4542896d
         in.close();
     }
 
